@@ -1,0 +1,103 @@
+body{
+    border: 14px;
+    color: #666;
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+   }
+   
+   h1{
+       font-family: 'Open Sans', sans-serif;
+       border: 36px;
+       color: #404040;
+       text-align: center;
+       text-transform: uppercase;
+   }
+   h2{
+       font-family: 'Open Sans', sans-serif;
+       font-weight: 1000;
+       border: 18px;
+   }
+   
+   form{
+       display: flex; 
+       justify-content: center; 
+       align-items: center;    
+   }
+   form
+   div{
+       background-color: white;
+   }
+   
+   form::placeholder{
+       color: red;
+       font: italic;
+   }
+   
+   a{
+       color: green;
+   }
+   
+   a:hover{
+       color: yellow;
+   }
+   
+   footer
+   i{
+       padding-left: 1rem;
+   }
+   
+   .form-inline{
+       margin-top: 2;
+       margin-bottom: 2;
+   }
+   
+   @media only screen and (min-width: 992px){
+       .form-inline{
+           margin-top: 0;
+           margin-bottom: 0;
+       }
+   }
+   @media only screen and (min-width: 600px){
+       .form-control{
+           margin-right: 2;
+   
+       }
+   }
+   
+   .btn-outlinesuccess{
+       margin-top: 2;
+       margin-bottom: 2;
+   }
+   
+   .text-top{
+       margin-top: 4;
+       margin-bottom: 3;
+   }
+   
+   .text-center{
+       margin-top: 0;
+       margin-bottom: 0;
+   }
+   
+   .row{
+       margin-top: 3;
+       margin-bottom: 3;
+   }
+   .col{
+       margin-top: 3;
+       margin-bottom: 3;
+   }
+   .text-footer{
+       margin-top: 0;
+       margin-bottom: 0;
+       margin-left: 0;
+       margin-right: 0;
+       padding-top: 4;
+       padding-bottom: 2;
+       padding-left: 5;
+       padding-right: 5;
+   }
+  .margin{
+    margin-left: 250;
+    margin-right: -400;
+  }
